@@ -1,6 +1,10 @@
 <div align="center">
 
-# 🔍 Camera Module Anomaly Project
+# 카메라 모듈 정상·불량 영상 분류
+
+**Camera-Module-Anomaly-Project**
+
+**기술 분류:** 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
 
 ### 카메라 모듈 정상·불량 영상 분류 비교
 ### Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection in Camera Modules of Smart Device
@@ -13,7 +17,33 @@
 
 [원고 읽기](#quick-start) · [저장소 구성](#structure) · [자료·설정](#data)
 
+[예시 이미지](#preview)
+
 </div>
+
+<a name="preview"></a>
+
+## 🖼️ 예시로 보기
+
+<p align="center"><img src="assets/previews/paper-model-comparison.png" width="808" alt="논문 그림 · Camera-Module-Anomaly-Project" /></p>
+
+**논문 그림** — 공개 원고 5쪽의 모델 성능 비교 그림입니다. 원고에 보고된 분류 지표이며 새로 실행한 결과가 아닙니다.
+
+[근거 파일 보기](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf)
+
+
+
+<a name="input-processing-output"></a>
+
+## 🔄 입력·처리·출력
+
+| 단계 | 이 프로젝트에서 다루는 내용 |
+| :--- | :--- |
+| 입력 | 정상·불량 카메라 모듈 영상 |
+| 처리 | 원고에서 YOLO·ViT·CNN 분류 성능과 처리시간 비교 |
+| 출력 | F1·처리시간 비교표와 그래프 |
+
+
 
 ---
 
