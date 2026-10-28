@@ -10,11 +10,11 @@ YOLO·ViT·CNN으로 카메라 모듈의 정상·불량 분류 성능과 처리�
 
 **기술 분류:** 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
 
-![Paper](https://img.shields.io/badge/Research-Paper-2563EB?style=flat-square) ![Document](https://img.shields.io/badge/Document-PDF-475569?style=flat-square)
+`논문·연구 자료` `Document`
 
 [원고 읽기](#quick-start) · [저장소 구성](#structure) · [자료·설정](#data)
 
-[예시 이미지](#preview)
+[핵심 구성](#input-processing-output)
 
 <details>
 <summary>📄 원고 제목</summary>
@@ -27,21 +27,11 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 <a name="overview"></a>
 
-## 🗺️ 한눈에 보는 구성
-
-<p align="center"><img src="assets/overview.png" width="960" alt="프로젝트의 입력·처리·출력을 정리한 설명도" /></p>
-보관한 프로젝트 자료의 흐름을 정리한 설명도입니다.
-
 ## ✨ 최종 원고에서 살펴볼 점
 
 정상·불량 카메라 모듈 영상에 대한 YOLOv8·ViT·CNN 분류 비교 원고입니다.
 
 원고의 표·본문·그래프에 일부 수치 차이가 있으며 별도 외부 테스트나 생산라인 검증을 뜻하지 않습니다.
-
-
-
-
-
 
 - 모델별 분류 결과를 비교하는 연구이며 객체 위치 검출이나 생산라인 실증과 같은 평가로 해석하지 않습니다.
 - 표·본문·그래프 간 일부 수치 차이를 보존하고 원문 지표 정의를 함께 확인합니다. 실행 코드·외부 시험 자료는 제공하지 않습니다.
@@ -50,14 +40,16 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 <a name="preview"></a>
 
-## 🖼️ 예시로 보기
+<details>
+<summary>📎 논문 도표와 출처</summary>
 
-<p align="center"><img src="assets/previews/paper-model-comparison.png" width="808" alt="논문 그림 · Camera-Module-Anomaly-Project" /></p>
+[📊 원고 도표 보기](assets/previews/paper-model-comparison.png)
 
 **논문 그림** — 공개 원고 5쪽의 모델 성능 비교 그림입니다. 원고에 보고된 분류 지표이며 새로 실행한 결과가 아닙니다. 그래프의 막대와 본문·표의 수치가 모두 일치하지 않으므로, 정확한 값을 인용할 때는 아래의 불일치 설명도 함께 확인해 주세요.
 
 [근거 파일 보기](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf)
 
+</details>
 
 <a name="input-processing-output"></a>
 
@@ -65,9 +57,9 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 | 단계 | 이 프로젝트에서 다루는 내용 |
 | :--- | :--- |
-| 입력 | 정상·불량 카메라 모듈 영상 |
-| 처리 | 원고에서 YOLO·ViT·CNN 분류 성능과 처리시간 비교 |
-| 출력 | F1·처리시간 비교표와 그래프 |
+| 📥 입력 | 정상·불량 카메라 모듈 영상 |
+| ⚙️ 처리 | 원고에서 YOLO·ViT·CNN 분류 성능과 처리시간 비교 |
+| 📤 출력 | F1·처리시간 비교표와 그래프 |
 
 
 ---
