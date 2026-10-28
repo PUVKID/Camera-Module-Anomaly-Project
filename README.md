@@ -1,23 +1,14 @@
 <div align="center">
 
 <a name="카메라-모듈-정상불량-영상-분류"></a>
-
-# 🔬 카메라 모듈 정상·불량 영상 분류
-
-**Camera-Module-Anomaly-Project**
-
-**기술 분류:** 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
-
 <a name="카메라-모듈-정상불량-영상-분류-비교"></a>
-
-### 🔎 카메라 모듈 정상·불량 영상 분류 비교
 <a name="performance-comparison-of-image-based-deep-learning-models-for-anomaly-detection-in-camera-modules-of-smart-device"></a>
 
-### 🔎 Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection in Camera Modules of Smart Device
+# 🏭 Camera Module Anomaly Project
 
-**YOLOv8 분류 · Vision Transformer · Custom CNN**
+YOLO·ViT·CNN으로 카메라 모듈의 정상·불량 분류 성능과 처리시간을 비교한 연구입니다.
 
-스마트 장치 카메라 모듈의 정상(OK)·불량(NG) 이미지를 대상으로 세 가지 분류 모델을 비교한 개인 연구 원고입니다. 분류 성능과 처리 시간, 모델 크기를 함께 검토합니다.<br>
+**기술 분류:** 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
 
 ![Paper](https://img.shields.io/badge/Research-Paper-2563EB?style=flat-square) ![Document](https://img.shields.io/badge/Document-PDF-475569?style=flat-square)
 
@@ -25,7 +16,37 @@
 
 [예시 이미지](#preview)
 
+<details>
+<summary>📄 원고 제목</summary>
+
+Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection in Camera Modules of Smart Device
+
+</details>
+
 </div>
+
+<a name="overview"></a>
+
+## 🗺️ 한눈에 보는 구성
+
+<p align="center"><img src="assets/overview.png" width="960" alt="프로젝트의 입력·처리·출력을 정리한 설명도" /></p>
+보관한 프로젝트 자료의 흐름을 정리한 설명도입니다.
+
+## ✨ 최종 원고에서 살펴볼 점
+
+정상·불량 카메라 모듈 영상에 대한 YOLOv8·ViT·CNN 분류 비교 원고입니다.
+
+원고의 표·본문·그래프에 일부 수치 차이가 있으며 별도 외부 테스트나 생산라인 검증을 뜻하지 않습니다.
+
+
+
+
+
+
+- 모델별 분류 결과를 비교하는 연구이며 객체 위치 검출이나 생산라인 실증과 같은 평가로 해석하지 않습니다.
+- 표·본문·그래프 간 일부 수치 차이를 보존하고 원문 지표 정의를 함께 확인합니다. 실행 코드·외부 시험 자료는 제공하지 않습니다.
+
+**자료별 안내:** [최종 원고](docs/versions/final-paper.md) · [전체 기록](docs/VERSIONS.md)
 
 <a name="preview"></a>
 
