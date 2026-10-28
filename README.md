@@ -1,13 +1,19 @@
 <div align="center">
 
-# 카메라 모듈 정상·불량 영상 분류
+<a name="카메라-모듈-정상불량-영상-분류"></a>
+
+# 🔬 카메라 모듈 정상·불량 영상 분류
 
 **Camera-Module-Anomaly-Project**
 
 **기술 분류:** 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
 
-### 카메라 모듈 정상·불량 영상 분류 비교
-### Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection in Camera Modules of Smart Device
+<a name="카메라-모듈-정상불량-영상-분류-비교"></a>
+
+### 🔎 카메라 모듈 정상·불량 영상 분류 비교
+<a name="performance-comparison-of-image-based-deep-learning-models-for-anomaly-detection-in-camera-modules-of-smart-device"></a>
+
+### 🔎 Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection in Camera Modules of Smart Device
 
 **YOLOv8 분류 · Vision Transformer · Custom CNN**
 
@@ -27,10 +33,9 @@
 
 <p align="center"><img src="assets/previews/paper-model-comparison.png" width="808" alt="논문 그림 · Camera-Module-Anomaly-Project" /></p>
 
-**논문 그림** — 공개 원고 5쪽의 모델 성능 비교 그림입니다. 원고에 보고된 분류 지표이며 새로 실행한 결과가 아닙니다.
+**논문 그림** — 공개 원고 5쪽의 모델 성능 비교 그림입니다. 원고에 보고된 분류 지표이며 새로 실행한 결과가 아닙니다. 그래프의 막대와 본문·표의 수치가 모두 일치하지 않으므로, 정확한 값을 인용할 때는 아래의 불일치 설명도 함께 확인해 주세요.
 
 [근거 파일 보기](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf)
-
 
 
 <a name="input-processing-output"></a>
@@ -42,7 +47,6 @@
 | 입력 | 정상·불량 카메라 모듈 영상 |
 | 처리 | 원고에서 YOLO·ViT·CNN 분류 성능과 처리시간 비교 |
 | 출력 | F1·처리시간 비교표와 그래프 |
-
 
 
 ---
@@ -95,18 +99,22 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 2. 서론의 연구 질문과 방법을 먼저 읽습니다.
 3. 결과표와 함께 한계·후속 연구를 확인합니다.
 
-이 저장소는 논문 열람을 위한 구성이므로 패키지 설치나 모델 실행 명령을 제시하지 않습니다. 원본 프로젝트 폴더에서 지정한 코드 확장자의 일반 파일을 검색했으며, 압축 파일 내부 코드는 검사하지 않았습니다. 확인하지 않은 구현의 존재 여부는 단정하지 않습니다.
+이 저장소에는 실행 코드가 없어 원고를 내려받아 읽으면 됩니다. 기존 원본 폴더 조사에서도 지정한 코드 확장자의 일반 파일은 찾지 못했습니다. 다만 압축 파일 내부까지 조사한 것은 아닙니다.
 
 <a name="data"></a>
 ## 📊 자료 구성과 결과 해석
 
 원고 안의 부품 예시와 연구 도표를 보존합니다. 제조 영상 원데이터 전체, 모델 가중치와 학습 로그는 제공하지 않습니다. 데이터 폴더 삭제·재생성을 설명하는 문장이 있으므로 원고의 코드 조각을 원본 자료가 있는 경로에서 바로 실행하지 마세요.
 
-### 원고가 보고한 결과와 한계
+<a name="원고가-보고한-결과와-한계"></a>
 
-원고 5쪽 표와 6쪽 결론은 YOLOv8 F1 0.972·12ms, ViT 0.958·28ms, CNN 0.943·22ms를 보고합니다. 이는 원고의 보고값이며 이 저장소에서 재실행해 확인한 성능이 아닙니다.
+### 🔎 원고가 보고한 결과와 한계
+
+원고 5쪽 표와 6쪽 결론은 YOLOv8 F1 0.972·12ms, ViT 0.958·28ms, CNN 0.943·22ms를 보고합니다. 6쪽의 모델 크기는 각각 약 15MB·380MB·4MB입니다. 이는 원고의 보고값이며 이 저장소에서 재실행해 확인한 성능이 아닙니다.
 
 5쪽 문단의 YOLOv8 F1 0.977은 같은 쪽 표의 0.972와 다릅니다. ViT 조기종료도 적용했다는 문장과 제거했다는 구현 설명이 함께 있으며, 시간 그래프와 표의 수치도 일부 다릅니다. 결과를 인용할 때 해당 위치와 불일치를 함께 확인해야 합니다.
+
+자료는 단일 공정 장비의 OK/NG 영상으로 한정됩니다. 다중 결함 분류, 다른 조명·배경, 실제 생산라인 연동과 경량화·양자화는 후속 연구 방향이며 완료된 검증으로 보지 않습니다.
 
 ## 🛠 문제 해결
 
@@ -118,6 +126,6 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 
 <div align="center">
 
-연구 질문과 확인된 범위를 함께 읽는 논문 기록입니다.
+연구 방법과 결과, 다음에 확인할 과제를 함께 살펴볼 수 있습니다.
 
 </div>
