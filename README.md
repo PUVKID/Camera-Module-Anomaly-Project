@@ -25,6 +25,23 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 </div>
 
+## 📄 논문
+
+[**📕 전체 원문 PDF**](논문/최종_논문.pdf) · [공식 링크 교체 위치](docs/PAPERS.md)
+
+
+## 🗂️ 자료별 상세 안내
+
+| 자료 | 세부 설명 |
+| :--- | :--- |
+| 📄 최종 원고 | [📖 내용·근거](docs/versions/final-paper.md) |
+
+
+
+[**🗂️ 자료별 상세 안내와 변화 →**](docs/REVISION_INDEX.md)
+
+
+
 <a name="overview"></a>
 
 ## ✨ 연구 핵심
