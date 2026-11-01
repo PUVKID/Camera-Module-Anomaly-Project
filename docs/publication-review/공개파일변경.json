@@ -1,0 +1,89 @@
+{
+  "scope": "이번 공개 자료 정리의 실제 파일 변경. 개인정보 원문 값은 재기록하지 않습니다. 이 색인 자체의 재귀 해시는 포함하지 않습니다.",
+  "changes": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "before": {
+        "bytes": 6612,
+        "sha256": "69c2e3c4fe266cae2facd77793dad7ec0a8da4224959a7b3dd2cdc7b741450df"
+      },
+      "after": {
+        "bytes": 7381,
+        "sha256": "c7e11677e86123212a79b4055435c848675e51a76a69f480c20cc2a534f50a93"
+      }
+    },
+    {
+      "path": "docs/PAPERS.md",
+      "change": "modified",
+      "before": {
+        "bytes": 542,
+        "sha256": "eeb6f887c3615dd79e85cc2530e42b9a9f6843998aecb938177fddf763d14e13"
+      },
+      "after": {
+        "bytes": 795,
+        "sha256": "51166bb9662eabeb6dc1198b6887882b870690bf697d6f65f9ff81a3482496f6"
+      }
+    },
+    {
+      "path": "docs/PRIVACY_CHANGELOG_2026-10-30.md",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 740,
+        "sha256": "59e797c9554ad5216b53f8a63ff06bfca2b4ff26c213fdc7bfe1ef514dd82092"
+      }
+    },
+    {
+      "path": "docs/REVISION_INDEX.md",
+      "change": "modified",
+      "before": {
+        "bytes": 204,
+        "sha256": "371c389826876a3a575fddc77030d3b52782bff7b2131ba8ed0db682aebd4f6e"
+      },
+      "after": {
+        "bytes": 558,
+        "sha256": "482edc3b3c57782eadc09ab784b5f9cee71e3a7dd2859c295629c2019be85130"
+      }
+    },
+    {
+      "path": "docs/changes/2026-10-30-공개자료정리.md",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 403,
+        "sha256": "b3ccd8be5bc51d4630f76cb85a8467be72d649568033b9700b21e3deb6fcb9de"
+      }
+    },
+    {
+      "path": "docs/privacy-changes.diff",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 2939,
+        "sha256": "ea56a2bf406f9eaff06f9ca814ea15471eb94a30556c32dd955179536a9c8f9c"
+      }
+    },
+    {
+      "path": "docs/publication-review/item-1.md",
+      "change": "added",
+      "before": null,
+      "after": {
+        "bytes": 690,
+        "sha256": "f4e1de598a6a526720727186154124abfc9f7ac88038d9bd8c30c3ed4d5a4f47"
+      }
+    },
+    {
+      "path": "논문/최종_논문.pdf",
+      "change": "modified",
+      "before": {
+        "bytes": 607782,
+        "sha256": "34ef178bf3b61f22ec9e3848bf55e6791de21a9e8a97116a12a3725c70ebcad2"
+      },
+      "after": {
+        "bytes": 570302,
+        "sha256": "65be99908f5d2af2a18cecbce75c6bc8341db79c2cc6ea5cb4a52ac67ccbfd5e"
+      }
+    }
+  ]
+}

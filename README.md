@@ -159,3 +159,28 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 연구 방법과 결과, 다음에 확인할 과제를 함께 살펴볼 수 있습니다.
 
 </div>
+
+
+> 공개 PDF에서는 지정된 개인정보와 학과·학부 정보를 제외했습니다. 저자·공동저자의 성명, 학교, 이메일, ORCID와 사진은 보존합니다. 편집 원문 링크는 비공개 보관 안내로 연결됩니다.
+
+
+<details>
+<summary>📚 차수별 논문 공개본 전체 보기</summary>
+
+| 원고·공개 경로 | 논문 |
+| :--- | :--- |
+| 논문/최종_논문.pdf | [📄 PDF 열기](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf) |
+
+</details>
+
+
+<details>
+<summary>🧹 공개 자료 정리 기록</summary>
+
+| 검수 대상 | 연결 자료 | 상세·이번 비교 |
+| :--- | :--- | :--- |
+| **기존 코드와 자료** | [📁 검수 자료](docs/publication-review) | [📖 정리 내용](docs/publication-review/item-1.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
+
+[🗂️ 전체 차수와 자료](docs/REVISION_INDEX.md)
+
+</details>
