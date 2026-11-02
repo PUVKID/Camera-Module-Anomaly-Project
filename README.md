@@ -174,13 +174,11 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 </details>
 
 
-<details>
-<summary>🧹 공개 자료 정리 기록</summary>
 
-| 검수 대상 | 연결 자료 | 상세·이번 비교 |
-| :--- | :--- | :--- |
-| **기존 코드와 자료** | [📁 검수 자료](docs/publication-review) | [📖 정리 내용](docs/publication-review/item-1.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
 
-[🗂️ 전체 차수와 자료](docs/REVISION_INDEX.md)
 
-</details>
+## 🗂️ 자료 폴더와 차수별 변화
+
+| 자료 | 자료 폴더 | 설명 | 비교·구성 |
+|---|---|---|---|
+| 최종 원고 | [자료 폴더](%EB%85%BC%EB%AC%B8) | [내용](docs/versions/final-paper.md) | [비교·구성](docs/VERSIONS.md) |
