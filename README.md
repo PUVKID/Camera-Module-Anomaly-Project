@@ -25,10 +25,14 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 </div>
 
-## 📄 논문
+## 📄 논문과 최신 자료
 
-[**📕 전체 원문 PDF**](논문/최종_논문.pdf) · [공식 링크 교체 위치](docs/PAPERS.md)
+| 자료 | 원문 파일 |
+|---|---|
+| 최종 논문 · 카메라 모듈 분류 | [PDF 다운로드](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf) |
+| 최종 논문 · 카메라 모듈 분류 | [HWP 다운로드](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.hwp) |
 
+[📚 자료별 설명](docs/PAPERS.md) · [🗂️ 코드 차수와 변경 이력](docs/REVISION_INDEX.md)
 
 ## 🗂️ 자료별 상세 안내
 
@@ -161,17 +165,9 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 </div>
 
 
-> 공개 PDF에서는 지정된 개인정보와 학과·학부 정보를 제외했습니다. 저자·공동저자의 성명, 학교, 이메일, ORCID와 사진은 보존합니다. 편집 원문 링크는 비공개 보관 안내로 연결됩니다.
 
 
-<details>
-<summary>📚 차수별 논문 공개본 전체 보기</summary>
 
-| 원고·공개 경로 | 논문 |
-| :--- | :--- |
-| 논문/최종_논문.pdf | [📄 PDF 열기](%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf) |
-
-</details>
 
 
 
@@ -182,3 +178,13 @@ YOLOv8은 입력 크기 64, 배치 32, 최대 3,000에폭을 설명합니다. Vi
 | 자료 | 자료 폴더 | 설명 | 비교·구성 |
 |---|---|---|---|
 | 최종 원고 | [자료 폴더](%EB%85%BC%EB%AC%B8) | [내용](docs/versions/final-paper.md) | [비교·구성](docs/VERSIONS.md) |
+
+## 📚 현재 첨부 문서
+
+이전 원고·발표의 변경 설명과 코드 차수는 위의 이력에서 확인할 수 있습니다. 다운로드는 문서 계보별 최신 완성본으로 연결합니다.
+
+| 문서 | 자료 폴더 | 상세 | 직전 공개본 전체 비교 |
+|---|---|---|---|
+| 최종 논문 · 카메라 모듈 분류 | [폴더](%EB%85%BC%EB%AC%B8) | [설명](docs/latest/camera-module-binary-classification.md) | [전체 비교](docs/changes/2026-11-02-%EC%B5%9C%EC%8B%A0%EB%AC%B8%EC%84%9C-%EC%A0%84%EC%B2%B4%EB%B9%84%EA%B5%90.md) |
+
+[📝 최신 문서 구성 변경](docs/changes/2026-11-02-%EC%B5%9C%EC%8B%A0%EB%AC%B8%EC%84%9C.md)
