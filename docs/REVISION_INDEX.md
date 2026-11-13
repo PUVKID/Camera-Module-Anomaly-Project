@@ -10,9 +10,9 @@
 
 [프로젝트 전체 소개](../README.md)
 
-| 차수 | 자료 폴더 | 상세 설명 | 직전 비교 |
-| --- | --- | --- | --- |
-| 최종 원고 | [폴더](../%EB%85%BC%EB%AC%B8) | [설명](versions/final-paper.md) | [전체 비교](VERSIONS.md) |
+| 차수 · 자료 폴더 · 상세 설명 · 직전 비교 |
+| --- |
+| **차수**<br>최종 원고<br><br>**자료 폴더**<br>[폴더](../%EB%85%BC%EB%AC%B8)<br><br>**상세 설명**<br>[설명](versions/final-paper.md)<br><br>**직전 비교**<br>[전체 비교](VERSIONS.md) |
 
 <a id="layout18-table-1-row-1"></a>
 
