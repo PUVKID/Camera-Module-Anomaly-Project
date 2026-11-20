@@ -6,7 +6,7 @@
 **읽기 수준 선택** · [LEVEL 1 - Beginner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) · [LEVEL 2 - Explorer](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) · [LEVEL 3 - Practitioner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) · [LEVEL 4 - Advanced](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) · [LEVEL 5 - Expert](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)
 <!-- reading-levels17:end -->
 
-**스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7쪽 연구 원고입니다.**
+**스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다.**
 
 [목적·구성·사용법·결과의 상세 안내](../versions/final-paper.md) · [프로젝트](../../README.md) · [전체 차수](../REVISION_INDEX.md)
 
@@ -16,108 +16,40 @@
 
 1. 초록과 데이터 구성에서 정상·불량 분류 문제와 분할을 확인합니다.
 2. 모델별 구현 설명을 읽으며 입력 크기와 학습 조건을 나란히 기록합니다.
-3. 5쪽 결과표와 그래프, 6쪽 결론의 수치를 대조합니다.
+3. 5 쪽 결과 표와 그래프, 6 쪽 결론의 수치를 대조합니다.
 4. 같은 조건의 외부 시험인지, 원고 내부 검증인지 구분한 뒤 결과를 인용합니다.
 
 <a id="-연결된-내용"></a>
 
 ## 연결된 내용
 
-<a id="layout18-table-1-row-1"></a>
-
-**정상·불량 데이터 구성**
-
-**구성**
-
-정상·불량 데이터 구성
-
-**읽을 내용**
-
-OK/NG 영상을 학습 80%·검증 20%로 분할하는 실험을 설명합니다.
-
-<a id="layout18-table-1-row-2"></a>
-
-**YOLOv8 분류**
-
-**구성**
-
-YOLOv8 분류
-
-**읽을 내용**
-
-원고의 학습 호출은 imgsz64·batch32·최대 3000epoch·patience100을 사용합니다.
-
-<a id="layout18-table-1-row-3"></a>
-
-**ViT와 CNN 비교**
-
-**구성**
-
-ViT와 CNN 비교
-
-**읽을 내용**
-
-사전학습 ViT와 합성곱·풀링·완전연결층 CNN을 분류 지표로 비교합니다.
-
-<a id="layout18-table-1-row-4"></a>
-
-**성능과 비용 해석**
-
-**구성**
-
-성능과 비용 해석
-
-**읽을 내용**
-
-정확도·정밀도·재현율·F1과 처리시간·모델 크기를 함께 제시합니다.
+| 구성 | 읽을 내용 |
+| --- | --- |
+| <a id="layout18-table-1-row-1"></a> 정상·불량 데이터 구성 | OK/NG 영상을 학습 80%·검증 20%로 분할하는 실험을 설명합니다. |
+| <a id="layout18-table-1-row-2"></a> YOLOv8 분류 | 원고의 학습 호출은 imgsz64·batch32·최대 3000epoch·patience100을 사용합니다. |
+| <a id="layout18-table-1-row-3"></a> ViT와 CNN 비교 | 사전 학습 ViT와 합성 곱·풀 링·완전 연결층 CNN을 분류 지표로 비교합니다. |
+| <a id="layout18-table-1-row-4"></a> 성능과 비용 해석 | 정확도·정밀도·재현율·F1과 처리 시간·모델 크기를 함께 제시합니다. |
 
 
 <a id="-해석-범위"></a>
 
 ## 해석 범위
 
-원고 5쪽 표와 6쪽 결론의 보고값입니다.
+원고 5 쪽 표와 6 쪽 결론의 보고값입니다.
 
-| 모델 | 내용 |
-| --- | --- |
-| YOLOv8 | **F1** 0.972<br>**처리시간** 12ms<br>**모델 크기** 약 15MB |
-| ViT | **F1** 0.958<br>**처리시간** 28ms<br>**모델 크기** 약 380MB |
-| CNN | **F1** 0.943<br>**처리시간** 22ms<br>**모델 크기** 약 4MB |
+| 모델 | F1 | 처리시간 | 모델 크기 |
+| --- | --- | --- | --- |
+| YOLOv8 | 0.972 | 12ms | 약 15MB |
+| ViT | 0.958 | 28ms | 약 380MB |
+| CNN | 0.943 | 22ms | 약 4MB |
 
 <details>
 <summary>파일·크기·SHA-256과 자료 연결</summary>
 
-<a id="layout18-table-3-row-1"></a>
-
-**[최종_논문.pdf](../../%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf)**
-
-**원문 파일**
-
-[최종_논문.pdf](../../%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.pdf)
-
-**바이트**
-
-607782
-
-**SHA-256**
-
-`34ef178bf3b61f22ec9e3848bf55e6791de21a9e8a97116a12a3725c70ebcad2`
-
-<a id="layout18-table-3-row-2"></a>
-
-**[최종_논문.hwp](../../%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.hwp)**
-
-**원문 파일**
-
-[최종_논문.hwp](../../%EB%85%BC%EB%AC%B8/%EC%B5%9C%EC%A2%85_%EB%85%BC%EB%AC%B8.hwp)
-
-**바이트**
-
-550400
-
-**SHA-256**
-
-`719a3fcbf11f8022a45d15f1fb2829a8d2bcd544268b0463a225ce32c088830b`
+| 원문 파일 | 바이트 | SHA-256 |
+| --- | --- | --- |
+| <a id="layout18-table-3-row-1"></a> [작성·게재 상태](../%EB%85%BC%EB%AC%B8%EC%83%81%ED%83%9C.md) | 607782 | `34ef178bf3b61f22ec9e3848bf55e6791de21a9e8a97116a12a3725c70ebcad2` |
+| <a id="layout18-table-3-row-2"></a> [작성·게재 상태](../%EB%85%BC%EB%AC%B8%EC%83%81%ED%83%9C.md) | 550400 | `719a3fcbf11f8022a45d15f1fb2829a8d2bcd544268b0463a225ce32c088830b` |
 
 
 </details>

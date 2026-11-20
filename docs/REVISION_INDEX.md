@@ -10,29 +10,13 @@
 
 [프로젝트 전체 소개](../README.md)
 
-| 차수 | 자료 |
-| --- | --- |
-| 최종 원고 | **자료 폴더** [폴더](../%EB%85%BC%EB%AC%B8)<br>**상세 설명** [설명](versions/final-paper.md)<br>**직전 비교** [전체 비교](VERSIONS.md) |
+| 차수 | 자료 폴더 | 상세 설명 | 직전 비교 |
+| --- | --- | --- | --- |
+| 최종 원고 | [폴더](../%EB%85%BC%EB%AC%B8) | [설명](versions/final-paper.md) | [전체 비교](VERSIONS.md) |
 
-<a id="layout18-table-1-row-1"></a>
-
-**[최종 원고](versions/final-paper.md)**
-
-**차수·단계**
-
-[최종 원고](versions/final-paper.md)
-
-**주요 내용**
-
-스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7쪽 연구 원고입니다.
-
-**자료**
-
-[폴더](../%EB%85%BC%EB%AC%B8)
-
-**직전 비교**
-
-[전체 비교](VERSIONS.md)
+| 차수·단계 | 주요 내용 | 자료 | 직전 비교 |
+| --- | --- | --- | --- |
+| <a id="layout18-table-1-row-1"></a> [최종 원고](versions/final-paper.md) | 스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다. | [폴더](../%EB%85%BC%EB%AC%B8) | [전체 비교](VERSIONS.md) |
 
 
 <a id="-자료-이용"></a>
