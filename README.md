@@ -93,7 +93,7 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 원고에는 「곽윤석 개인논문」으로 표시되어 있습니다.
 
-| 항목 (Category) | 원고에서 다루는 내용 |
+| 항목 | 원고에서 다루는 내용 |
 | --- | --- |
 | 이진 분류 비교 | YOLOv8 분류기, 사전 학습 ViT, 자체 CNN을 비교합니다. |
 | 데이터 구성 | 약 2,000장의 OK/NG 영상 과 80:20 학습·검증 분할을 서술합니다. |
