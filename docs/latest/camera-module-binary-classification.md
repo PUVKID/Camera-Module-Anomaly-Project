@@ -27,7 +27,7 @@
 | --- | --- |
 | <a id="layout18-table-1-row-1"></a> 정상·불량 데이터 구성 | OK/NG 영상을 학습 80%·검증 20%로 분할하는 실험을 설명합니다. |
 | <a id="layout18-table-1-row-2"></a> YOLOv8 분류 | 원고의 학습 호출은 imgsz64·batch32·최대 3000epoch·patience100을 사용합니다. |
-| <a id="layout18-table-1-row-3"></a> ViT와 CNN 비교 | 사전 학습 ViT와 합성 곱·풀 링·완전 연결층 CNN을 분류 지표로 비교합니다. |
+| <a id="layout18-table-1-row-3"></a> ViT와 CNN 비교 | 사전 학습 ViT와 합성곱·풀링·완전 연결층 CNN을 분류 지표로 비교합니다. |
 | <a id="layout18-table-1-row-4"></a> 성능과 비용 해석 | 정확도·정밀도·재현율·F1과 처리 시간·모델 크기를 함께 제시합니다. |
 
 
