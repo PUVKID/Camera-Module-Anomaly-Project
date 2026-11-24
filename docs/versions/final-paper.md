@@ -5,11 +5,11 @@
 <!-- reading-levels17:start -->
 | 읽기 수준 | 설명의 초점 |
 | --- | --- |
-| [LEVEL 1 · Beginner](#reading-level-1) | 목적과 동작부터 |
-| [LEVEL 2 · Explorer](#reading-level-2) | 구성과 연결 원리 |
-| [LEVEL 3 · Practitioner](#reading-level-3) | 준비·실행·결과 확인 |
-| [LEVEL 4 · Advanced](#reading-level-4) | 구현·설계·실패 처리 |
-| [LEVEL 5 · Expert](#reading-level-5) | 근거·프로토콜·한계 검토 |
+| [LEVEL 1 · Beginner](#user-content-reading-level-1) | 목적과 동작부터 |
+| [LEVEL 2 · Explorer](#user-content-reading-level-2) | 구성과 연결 원리 |
+| [LEVEL 3 · Practitioner](#user-content-reading-level-3) | 준비·실행·결과 확인 |
+| [LEVEL 4 · Advanced](#user-content-reading-level-4) | 구현·설계·실패 처리 |
+| [LEVEL 5 · Expert](#user-content-reading-level-5) | 근거·프로토콜·한계 검토 |
 
 <details open>
 <summary>LEVEL 1 · Beginner — 목적과 동작부터</summary>
@@ -163,7 +163,7 @@ F1은 잘 맞춘 정도를 한 숫자로 살피는 지표이며 1에 가까울�
 
 학습에 쓰인 공장과 다른 조명·배경에서도 같은 결과가 나오는지는 따로 확인해야 합니다. 원고 안에서도 숫자와 설명이 일부 다릅니다. 모든 제조 환경에 적용됐다는 결과는 아닙니다.
 
-[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -320,7 +320,7 @@ YOLOv8 분류 모델, 사전 학습 ViT, 직접 구성한 CNN을 같은 정상·
 
 데이터 분할의 결과를 다른 공정 일반화로 옮길 수는 없습니다. 표와 본문이 다른 부분, 입력 크기가 다른 부분, ViT 조기 종료의 상충 설명을 확인해야 합니다. 원고를 읽는 단계에서 이를 해결된 문제로 바꾸지 않습니다.
 
-[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -477,7 +477,7 @@ YOLOv8 분류 모델, 사전 학습 ViT, 직접 구성한 CNN을 같은 정상·
 
 재실행 필수 자료가 없으므로 문헌의 보고값을 재측정값처럼 적지 않습니다. 모델 비교 시 각 전처리와 학습 조건을 옆에 두고, 외부 평가 부재와 시간 측정 범위의 한계를 함께 기록합니다.
 
-[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -634,7 +634,7 @@ YOLO 설정에는 최대 학습 횟수와 조기 종료 대기 조건이 함께 
 
 입력·종료 정책의 차이 때문에 모델 구조만의 기여를 식별하기 어렵습니다. 현장 지연에는 장비 입출력과 전후처리도 포함될 수 있습니다. 원고의 처리시간을 통합 생산라인 지연으로 재명명하지 않습니다.
 
-[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+[표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#user-content-reading-level-5)
 
 
 </details>
