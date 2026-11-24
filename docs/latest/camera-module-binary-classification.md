@@ -3,7 +3,18 @@
 # 스마트 장치의 카메라 모듈에 대한 이미지 기반 딥러닝 모델의 이미지 이상 탐지 성능 비교 분석
 
 <!-- reading-levels17:start -->
-**읽기 수준 선택** · [LEVEL 1 - Beginner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) · [LEVEL 2 - Explorer](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) · [LEVEL 3 - Practitioner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) · [LEVEL 4 - Advanced](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) · [LEVEL 5 - Expert](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)
+<details>
+<summary><strong>읽기 수준 선택</strong></summary>
+
+| 레벨 | 읽는 목적 |
+| --- | --- |
+| [LEVEL 1 - Beginner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) | 목적과 입력·출력을 쉬운 말로 이해하기 |
+| [LEVEL 2 - Explorer](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) | 주요 기능과 전체 처리 흐름 살펴보기 |
+| [LEVEL 3 - Practitioner](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) | 설정·실행 순서와 결과 확인하기 |
+| [LEVEL 4 - Advanced](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) | 구현 선택과 조건·한계 비교하기 |
+| [LEVEL 5 - Expert](../%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md) | 세부 근거와 재현 조건 검토하기 |
+
+</details>
 <!-- reading-levels17:end -->
 
 **스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다.**
@@ -46,7 +57,9 @@
 <details>
 <summary>파일·크기·SHA-256과 자료 연결</summary>
 
-이 표의 바이트 수와 SHA-256은 원고의 당시 기록값입니다. 링크는 현재 작성·게재 상태 안내로 연결되며, 연결된 안내 파일의 크기·해시를 뜻하지 않습니다. 미게재 원고 본문과 편집 원본은 로컬에 보존하며 공개하지 않습니다.
+이 표의 바이트 수와 SHA-256은 원고의 당시 기록값입니다.  
+링크는 현재 작성·게재 상태 안내로 연결되며, 연결된 안내 파일의 크기·해시를 뜻하지 않습니다.  
+미게재 원고 본문과 편집 원본은 로컬에 보존하며 공개하지 않습니다.
 
 | 원문 파일 | 바이트 | SHA-256 |
 | --- | --- | --- |

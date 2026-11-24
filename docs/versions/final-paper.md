@@ -3,7 +3,16 @@
 # 최종 원고 · 카메라 모듈 정상·불량 분류
 
 <!-- reading-levels17:start -->
-**읽기 수준 선택** · [LEVEL 1 - Beginner](#reading-level-1) · [LEVEL 2 - Explorer](#reading-level-2) · [LEVEL 3 - Practitioner](#reading-level-3) · [LEVEL 4 - Advanced](#reading-level-4) · [LEVEL 5 - Expert](#reading-level-5)
+| 읽기 수준 | 설명의 초점 |
+| --- | --- |
+| [LEVEL 1 · Beginner](#reading-level-1) | 목적과 동작부터 |
+| [LEVEL 2 · Explorer](#reading-level-2) | 구성과 연결 원리 |
+| [LEVEL 3 · Practitioner](#reading-level-3) | 준비·실행·결과 확인 |
+| [LEVEL 4 · Advanced](#reading-level-4) | 구현·설계·실패 처리 |
+| [LEVEL 5 · Expert](#reading-level-5) | 근거·프로토콜·한계 검토 |
+
+<details open>
+<summary><strong>LEVEL 1 · Beginner</strong> — 목적과 동작부터</summary>
 
 <a id="reading-level-1"></a>
 
@@ -156,6 +165,12 @@ F1은 잘 맞춘 정도를 한 숫자로 살피는 지표이며 1에 가까울�
 
 [표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
 
+
+</details>
+
+<details>
+<summary><strong>LEVEL 2 · Explorer</strong> — 구성과 연결 원리</summary>
+
 <a id="reading-level-2"></a>
 
 ## LEVEL 2 - Explorer
@@ -306,6 +321,12 @@ YOLOv8 분류 모델, 사전 학습 ViT, 직접 구성한 CNN을 같은 정상·
 데이터 분할의 결과를 다른 공정 일반화로 옮길 수는 없습니다. 표와 본문이 다른 부분, 입력 크기가 다른 부분, ViT 조기 종료의 상충 설명을 확인해야 합니다. 원고를 읽는 단계에서 이를 해결된 문제로 바꾸지 않습니다.
 
 [표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+
+
+</details>
+
+<details>
+<summary><strong>LEVEL 3 · Practitioner</strong> — 준비·실행·결과 확인</summary>
 
 <a id="reading-level-3"></a>
 
@@ -458,6 +479,12 @@ YOLOv8 분류 모델, 사전 학습 ViT, 직접 구성한 CNN을 같은 정상·
 
 [표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
 
+
+</details>
+
+<details>
+<summary><strong>LEVEL 4 · Advanced</strong> — 구현·설계·실패 처리</summary>
+
 <a id="reading-level-4"></a>
 
 ## LEVEL 4 - Advanced
@@ -608,6 +635,12 @@ YOLO 설정에는 최대 학습 횟수와 조기 종료 대기 조건이 함께 
 입력·종료 정책의 차이 때문에 모델 구조만의 기여를 식별하기 어렵습니다. 현장 지연에는 장비 입출력과 전후처리도 포함될 수 있습니다. 원고의 처리시간을 통합 생산라인 지연으로 재명명하지 않습니다.
 
 [표·코드·실행 설정·파일 전체 비교를 포함한 공통 상세](#reading-level-5)
+
+
+</details>
+
+<details>
+<summary><strong>LEVEL 5 · Expert</strong> — 근거·프로토콜·한계 검토</summary>
 
 <a id="reading-level-5"></a>
 
@@ -795,3 +828,6 @@ YOLO 설정에는 최대 학습 횟수와 조기 종료 대기 조건이 함께 
 ---
 
 [프로젝트](../../README.md) · [전체 차수](../REVISION_INDEX.md) · [자료 폴더](../../%EB%85%BC%EB%AC%B8)
+
+</details>
+

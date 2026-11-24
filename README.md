@@ -11,11 +11,11 @@
 <!-- reading-levels17:start -->
 | 읽기 수준 | 안내 내용 |
 | --- | --- |
-| [LEVEL 1 - Beginner](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) | 낯선 용어를 풀고 입력부터 결과까지 구체적인 예로 읽기 |
-| [LEVEL 2 - Explorer](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) | 핵심 개념과 처리 흐름의 관계 이해 |
-| [LEVEL 3 - Practitioner](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) | 실험·사용 절차와 결과 해석 따라가기 |
-| [LEVEL 4 - Advanced](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) | 코드 구조·설정·설계 선택과 제약 검토 |
-| [LEVEL 5 - Expert](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md) | 논문·프로토콜·분모·누수·미검증 범위 대조 |
+| [**LEVEL 1 - Beginner**](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) | 낯선 용어를 풀고 입력부터 결과까지 구체적인 예로 읽기 |
+| [**LEVEL 2 - Explorer**](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) | 핵심 개념과 처리 흐름의 관계 이해 |
+| [**LEVEL 3 - Practitioner**](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) | 실험·사용 절차와 결과 해석 따라가기 |
+| [**LEVEL 4 - Advanced**](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) | 코드 구조·설정·설계 선택과 제약 검토 |
+| [**LEVEL 5 - Expert**](docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md) | 논문·프로토콜·분모·누수·미검증 범위 대조 |
 <!-- reading-levels17:end -->
 
 분야: 컴퓨터 비전 › 딥러닝 영상 분류 › CNN·Vision Transformer 비교
@@ -80,9 +80,9 @@ Performance Comparison of Image-Based Deep Learning Models for Anomaly Detection
 
 ## 전체 차수
 
-| 차수·단계 | 주요 내용 | 자료 | 직전 비교 |
-| --- | --- | --- | --- |
-| <a id="layout18-table-4-row-1"></a> [최종 원고](docs/versions/final-paper.md) | 스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다. | [폴더](%EB%85%BC%EB%AC%B8) | [전체 비교](docs/VERSIONS.md) |
+| 차수·단계 | 주요 내용 | 자료 · 직전 비교 |
+| --- | --- | --- |
+| <a id="layout18-table-4-row-1"></a> [최종 원고](docs/versions/final-paper.md) | 스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다. | [폴더](%EB%85%BC%EB%AC%B8)<br>[전체 비교](docs/VERSIONS.md) |
 
 
 <a id="-프로젝트-소개"></a>
@@ -183,9 +183,9 @@ ViT/CNN 입력 전처리 설명은 224×224입니다. 같은 입력 크기의 �
 
 ## 자료 폴더와 차수별 변화
 
-| 자료 | 자료 폴더 | 설명 | 비교·구성 |
-| --- | --- | --- | --- |
-| 최종 원고 | [자료 폴더](%EB%85%BC%EB%AC%B8) | [내용](docs/versions/final-paper.md) | [비교·구성](docs/VERSIONS.md) |
+| 자료 | 자료 폴더 | 설명 · 비교·구성 |
+| --- | --- | --- |
+| 최종 원고 | [자료 폴더](%EB%85%BC%EB%AC%B8) | [내용](docs/versions/final-paper.md)<br>[비교·구성](docs/VERSIONS.md) |
 
 <a id="-현재-첨부-문서"></a>
 
@@ -193,9 +193,9 @@ ViT/CNN 입력 전처리 설명은 224×224입니다. 같은 입력 크기의 �
 
 현재 공개 안내와 직전 공개본의 비교입니다. 원고의 단계별 변경은 전체 차수 표에서 확인할 수 있으며, 미게재 원고 본문과 편집 원본은 로컬에 보존합니다.
 
-| 문서 | 자료 폴더 | 상세 | 직전 공개본 전체 비교 |
-| --- | --- | --- | --- |
-| 최종 논문 · 카메라 모듈 분류 | [폴더](%EB%85%BC%EB%AC%B8) | [설명](docs/latest/camera-module-binary-classification.md) | [전체 비교](docs/changes/2026-11-02-%EC%B5%9C%EC%8B%A0%EB%AC%B8%EC%84%9C-%EC%A0%84%EC%B2%B4%EB%B9%84%EA%B5%90.md) |
+| 문서 | 자료 폴더 | 상세 · 직전 공개본 전체 비교 |
+| --- | --- | --- |
+| 최종 논문 · 카메라 모듈 분류 | [폴더](%EB%85%BC%EB%AC%B8) | [설명](docs/latest/camera-module-binary-classification.md)<br>[전체 비교](docs/changes/2026-11-02-%EC%B5%9C%EC%8B%A0%EB%AC%B8%EC%84%9C-%EC%A0%84%EC%B2%B4%EB%B9%84%EA%B5%90.md) |
 
 [최신 문서 구성 변경](docs/changes/2026-11-02-%EC%B5%9C%EC%8B%A0%EB%AC%B8%EC%84%9C.md)
 
@@ -210,9 +210,9 @@ ViT/CNN 입력 전처리 설명은 224×224입니다. 같은 입력 크기의 �
 <a id="-최종-원고--카메라-모듈-정상불량-분류"></a>
 
 <details>
-<summary>최종 원고 · 카메라 모듈 정상·불량 분류</summary>
+<summary><strong>최종 원고 · 카메라 모듈 정상·불량 분류</strong></summary>
 
-### 최종 원고 · 카메라 모듈 정상·불량 분류
+<a id="최종-원고--카메라-모듈-정상불량-분류"></a>
 
 스마트 장치의 카메라 모듈 영상을 정상·불량으로 분류할 때 YOLOv8·Vision Transformer·자체 CNN의 성능과 처리 비용을 비교한 7 쪽 연구 원고입니다.
 
@@ -247,7 +247,7 @@ ViT/CNN 입력 전처리 설명은 224×224입니다. 같은 입력 크기의 �
 | 지표 불일치 | 본문·표·시간 그래프에 차이가 있습니다.<br>인용 위치를 함께 적습니다. |
 | 모델 비교 조건 | YOLO64와 ViT/CNN224 전처리를 같은 입력 크기로 설명하지 않습니다. |
 | 현장 일반화 | 다른 공정·조명·배경의 외부 테스트와 생산라인 연동은 후속 평가입니다. |
-| 재실행 | 공개 자료는 연구 설명이며 원고 본문·편집 원본은 비공개입니다. 학습 가중치·제조 원영상·실행 패키지도 별도로 필요합니다. |
+| 재실행 | 공개 자료는 연구 설명이며 원고 본문·편집 원본은 비공개입니다.<br>학습 가중치·제조 원영상·실행 패키지도 별도로 필요합니다. |
 
 [파일 구성·핵심 정의·사용 순서](docs/versions/final-paper.md) · [이 단계 전체 비교](docs/VERSIONS.md)
 
