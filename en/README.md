@@ -26,7 +26,7 @@
   <source media="(max-width: 600px)" srcset="../assets/readme/flow-en-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="../assets/readme/flow-en-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="../assets/readme/flow-en-light.svg" />
-  <img src="../assets/readme/flow-en-light.svg" alt="Camera Module Anomaly Project: OK · NG images → YOLO · ViT · CNN → F1 · processing time" width="100%" />
+  <img src="../assets/readme/flow-en-light.svg" alt="OK · NG images: Normal and defective module images → YOLO · ViT · CNN: Compare classifier performance and time → F1 · processing time: Tables and plots of F1 and runtime" width="100%" />
 </picture>
 <!-- readme-header32:end -->
 

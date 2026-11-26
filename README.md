@@ -25,7 +25,7 @@
   <source media="(max-width: 600px)" srcset="assets/readme/flow-ko-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/flow-ko-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/readme/flow-ko-light.svg" />
-  <img src="assets/readme/flow-ko-light.svg" alt="Camera Module Anomaly Project: OK · NG 영상 → YOLO · ViT · CNN 비교 → F1 · 처리 시간" width="100%" />
+  <img src="assets/readme/flow-ko-light.svg" alt="OK · NG 영상: 정상·불량 카메라 모듈 영상 → YOLO · ViT · CNN 비교: 세 모델의 분류 성능·시간 비교 → F1 · 처리 시간: F1과 처리시간을 표·그래프로" width="100%" />
 </picture>
 <!-- readme-header32:end -->
 
