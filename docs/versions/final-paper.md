@@ -1,3 +1,7 @@
+<!-- language-choice:start -->
+🔵 **한국어** · [English overview](../../en/README.md)
+<!-- language-choice:end -->
+
 <a id="-최종-원고--카메라-모듈-정상불량-분류"></a>
 
 # 최종 원고 · 카메라 모듈 정상·불량 분류
